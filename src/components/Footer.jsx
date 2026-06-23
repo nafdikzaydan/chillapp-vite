@@ -4,12 +4,12 @@ import Logo from '../assets/images/chill-app-icon.png'
 export default function Footer() {
   return (
     <>
-      <footer className="bg-[#111] text-zinc-400 py-12 px-4 md:px-12 border-t border-zinc-800">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
+      <footer className="bg-[#111] text-zinc-400 border-t border-zinc-800">
+        <div className="w-full mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 md:py-15 md:px-20">
           
           <div className="flex flex-col gap-4">
             <img src={Logo} alt="Logo" className="h-8 w-auto object-contain self-start" />
-            <p className="text-xs text-zinc-500 font-medium">
+            <p className="text-lg text-zinc-500 font-normal">
               @2023 Chill All rights reserved.
             </p>
           </div>

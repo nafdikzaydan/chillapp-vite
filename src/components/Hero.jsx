@@ -5,12 +5,12 @@ export default function Hero() {
   return (
     <>
         <section 
-        className="relative min-h-[70vh] md:min-h-[85vh] w-full flex items-end bg-cover bg-center bg-no-repeat text-white"
+        className="relative min-h-[70vh] md:min-h-[85vh] w-full flex items-end bg-cover bg-center bg-no-repeat text-white mt-20"
         style={{ backgroundImage: `url(${BgHero})` }}
         >
-        <div className="absolute inset-0 bg-gradient-to-t from-[#141414] via-black/40 to-transparent z-10" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#141414] via-black/40 to-transparent z-10 px-24" />
 
-        <div className="relative z-20 w-full px-4 md:px-12 pb-12 md:pb-20 max-w-4xl flex flex-col gap-6">
+        <div className="relative z-20 w-full p-20 max-w-4xl flex flex-col gap-6">
             
             <div className="flex flex-col gap-3">
             <h1 className="text-2xl md:text-4xl font-medium tracking-wide drop-shadow-lg">
